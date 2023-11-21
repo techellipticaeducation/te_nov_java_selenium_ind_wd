@@ -13,7 +13,6 @@ public class TernaryOperator {
 		Scanner scan = new Scanner(System.in);
 		while(true) {
 			System.out.println("What is your age :");
-
 			int age = scan.nextInt();
 			int price = age<=18 ? 100 : 200 ;
 			System.out.println("Your Ticket Price : " + price);
