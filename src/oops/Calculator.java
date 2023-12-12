@@ -13,7 +13,7 @@ public class Calculator {
 	
 	int multiply(int i, int j) {
 		int k = i*j;
-		return k;		
+		return k;
 	}
 	
 	// method without paramters
