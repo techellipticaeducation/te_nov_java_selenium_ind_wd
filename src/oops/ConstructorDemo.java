@@ -2,14 +2,23 @@ package oops;
 
 public class ConstructorDemo {
 	public static void main(String[] args) {
-		Test346 t1  = new Test346(10);	
+		Test346 t1  = new Test346(10,50);	
 	}
 }
 
 class Test346{
 	int i = 10;
+	static int j = 20;
 	
-	Test346(int i){
+	Test346(){
+		this(10,20);
+	}
+	
+	Test346(int i, int j){
+		//this();
+		this.i = i;
+		
+		Test346.j = j;
 		System.out.println("Hello");
 	}
 	
