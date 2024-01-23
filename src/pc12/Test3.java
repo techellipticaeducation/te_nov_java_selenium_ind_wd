@@ -2,10 +2,12 @@ package pc12;
 
 import pac11.Test1;
 
-public class Test3 {
+public class Test3 extends Test1{
 
-	public static void main(String[] args) {
-		System.out.println(Test1.i);
+	public void m3() {
+//		Test1 t1 = new Test1();
+//		t1.m1();
+		m1();
 	}
 	
 }
