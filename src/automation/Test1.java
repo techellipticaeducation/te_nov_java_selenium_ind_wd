@@ -24,7 +24,9 @@ public class Test1 {
 		
 //		Point point = new Point(300, 100);
 //		driver.manage().window().setPosition(point);
-		driver.get("https://www.google.com");
+		driver.get("https://techelliptica.com/game/xpath.html");
+		
+		driver.findElement(By.xpath("//button[text()='clickStock1']")).click();
 		
 		// protocol is mandatory
 		
@@ -61,14 +63,14 @@ public class Test1 {
 //		name="q"
 		
 	
-		
-		driver.findElement(By.name("q")).sendKeys("sachin tendulkar",Keys.ENTER);
-		
-		
-		
-		By l1 = By.xpath("//h3[text()='Sachin Tendulkar']/parent::a");
-		WebElement link = driver.findElement(l1);
-		link.click();
+//		
+//		driver.findElement(By.name("q")).sendKeys("sachin tendulkar",Keys.ENTER);
+//		
+//		
+//		
+//		By l1 = By.xpath("//h3[text()='Sachin Tendulkar']/parent::a");
+//		WebElement link = driver.findElement(l1);
+//		link.click();
 		
 		//  String type class
 		
