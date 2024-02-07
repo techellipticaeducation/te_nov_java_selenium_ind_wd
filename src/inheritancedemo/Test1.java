@@ -14,7 +14,7 @@ class Test2{
 	}
 }
 
-class Test3 extends Test2{
+class Test33 extends Test2{
 	public void m2() {
 		System.out.println(i);
 		m1();
