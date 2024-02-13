@@ -7,6 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class Test1 {
 	public static void main(String args[]) {
@@ -27,6 +28,11 @@ public class Test1 {
 		driver.get("https://techelliptica.com/game/xpath.html");
 		
 		driver.findElement(By.xpath("//button[text()='clickStock1']")).click();
+		
+		
+		Actions action = new Actions(driver);
+		action.click().clickAndHold(null).doubleClick().
+		contextClick().build().perform();
 		
 		// protocol is mandatory
 		
