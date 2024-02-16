@@ -21,7 +21,7 @@ class M3 extends M2{
 	M3(int i){
 		super(i);
 		System.out.println("m3");	
-	}
+	} 
 	M3(){
 		super(10);
 	}
