@@ -10,6 +10,7 @@ public class MethodOverrdingDemo {
 // overriding - parent class - method ki functionality updates
 
 class Bank{
+	int i = 10;
 	public double interestRate() {
 		return 10.0d;
 	}
@@ -21,6 +22,7 @@ class Bank{
 
 class ForeignBank extends Bank{
 	public double interestRate() {
+		i = 50;
 		return 20.0d;
 	}
 }
